@@ -1,5 +1,6 @@
+'use client';
 import React, { useEffect, useMemo, useState } from "react";
-// Componente principal LaFontanaBooking incluido completo
+
 const PRICE_PER_VEHICLE = 12000;
 const SECTORS = [
   { id: "rio", name: "El río", cupos: 10, desc: "Orillas limpias y acceso directo al balneario." },
