@@ -160,10 +160,4 @@ export default function LaFontanaBooking() {
       </main>
     </div>
   );
-},
-  "devDependencies": {
-    "typescript": "^5.6.3",
-    "@types/react": "^18.3.3",
-    "@types/node": "^20.11.30"
-  }
-
+}
