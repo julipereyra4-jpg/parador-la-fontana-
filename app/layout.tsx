@@ -1,3 +1,6 @@
+import './globals.css';
+import React from 'react';
+
 export const metadata = {
   metadataBase: new URL("https://parador-la-fontana.vercel.app"),
   title: "Parador La Fontana – Reservá tu asador en Los Reartes",
@@ -34,7 +37,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body className="bg-gradient-to-b from-sky-50 to-white text-slate-800">
+        {children}
+      </body>
     </html>
   );
 }
